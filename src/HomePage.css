@@ -3,12 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body, .home-page {
     background-color: white;
     font-family: 'Arial', sans-serif;
 }
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -40,7 +38,6 @@ body, .home-page {
     text-decoration: none;
     color: whitesmoke;
     font-size: 18px;
-    transition: color 0.3s ease-in-out;
 }
 
 .nav-links a:hover {
@@ -63,7 +60,6 @@ body, .home-page {
     text-decoration: none;
     font-weight: bold;
     cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
 }
 
 .auth-buttons a:hover {
@@ -84,16 +80,7 @@ body, .home-page {
     align-items: center;
     text-align: center;
     color: black;
-    animation: fadeIn 1s forwards; 
-}
-
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+    
 }
 
 .hero-content {
