@@ -7,7 +7,6 @@ import ChatWindow from './ChatWindow';
 
 const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-
   return (
     <Router basename="/Chat-Application">
       <div className="app-container">
@@ -21,5 +20,4 @@ const App = () => {
     </Router>
   );
 };
-
 export default App;

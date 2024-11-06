@@ -87,3 +87,7 @@ h2 {
 .error-message li {
   margin-bottom: 5px;
 }
+
+.success-message{
+  color:black;  
+}

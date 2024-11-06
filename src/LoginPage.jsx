@@ -28,8 +28,6 @@ const LoginPage = ({ setIsLoggedIn }) => {
     <div className="login-signup-page">
       <div className="form-container">
         <h1>Login</h1>
-        {successMessage && <div className="success-message">{successMessage}</div>}
-        {errorMessage && <div className="error-message">{errorMessage}</div>}
         <form onSubmit={handleLogin}>
           <div className="input-group">
             <label>Email</label>
@@ -56,6 +54,8 @@ const LoginPage = ({ setIsLoggedIn }) => {
 
         {}
         <p>Don't have an account? <Link to="/signup">Sign up here</Link></p>
+        {successMessage && <div className="success-message">{successMessage}</div>}
+        {errorMessage && <div className="error-message">{errorMessage}</div>}
       </div>
     </div>
   );
